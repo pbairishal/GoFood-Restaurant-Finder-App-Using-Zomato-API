@@ -19,7 +19,7 @@ $(document).ready(function() {
    "url": "https://developers.zomato.com/api/v2.1/search?entity_id=" + valueDropdown + "&entity_type=city" + searchCity + "&count=50",
    "method": "GET",
    "headers": {
-    "user-key": "d710754ce67200fb6fb9b5e26139f50e",
+    "user-key": /* Zomato API Key */,
     'Content-Type': 'application/x-www-form-urlencoded'
    }
   }
